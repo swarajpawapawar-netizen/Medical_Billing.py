@@ -5,7 +5,7 @@ import os
 
 FILE = "medical_billing.xlsx"
 
-# Create Excel file
+
 if os.path.exists(FILE):
     wb = load_workbook(FILE)
     ws = wb.active
